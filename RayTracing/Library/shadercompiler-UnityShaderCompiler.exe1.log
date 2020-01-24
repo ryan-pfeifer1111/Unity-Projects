@@ -1,0 +1,11 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=2701 outsize=2433 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3866 outsize=3029 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4100 outsize=3029 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at RayTracingShader.compute(37): syntax error: unexpected token 'RayHit'
+  api=4 insize=5004 outsize=0 ok=0

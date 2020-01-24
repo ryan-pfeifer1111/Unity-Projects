@@ -62,7 +62,7 @@ public static class Noise
             for (int h = 0; h < height; h++)
             {
                 noise_map[w, h] = Mathf.InverseLerp(lowest, heighest, noise_map[w, h]);
-                Debug.Log("noise_map[" + w + ", " + h + "]: " + noise_map[w, h]);
+                //Debug.Log("noise_map[" + w + ", " + h + "]: " + noise_map[w, h]);
             }
         }
 

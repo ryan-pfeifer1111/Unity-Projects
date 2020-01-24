@@ -324,8 +324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fc90be88ad25514d832ce40a78aa92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map_width: 25
-  map_height: 25
+  draw_mode: 1
+  map_width: 100
+  map_height: 100
   noise_scale: 36.63
   auto_update: 1
   octaves: 4
@@ -333,6 +334,22 @@ MonoBehaviour:
   lacunarity: 2
   seed: 29
   offset: {x: 24.54, y: 6.53}
+  regions:
+  - name: Water
+    height: 0.4
+    color: {r: 0.11863652, g: 0.6726516, b: 0.8113208, a: 0}
+  - name: Beach
+    height: 0.45
+    color: {r: 0.9528302, g: 0.928244, b: 0.56181026, a: 0}
+  - name: Land
+    height: 0.75
+    color: {r: 0.05139729, g: 0.5188679, b: 0.10880597, a: 0}
+  - name: Rocky
+    height: 0.9
+    color: {r: 0.6037736, g: 0.54591197, b: 0.4528302, a: 0}
+  - name: Snow
+    height: 1
+    color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 0}
 --- !u!4 &1514220394
 Transform:
   m_ObjectHideFlags: 0
@@ -433,7 +450,7 @@ Transform:
   m_GameObject: {fileID: 1972291089}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
